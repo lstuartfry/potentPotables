@@ -8,7 +8,9 @@ class Gameboard extends Component {
     render() {
       return(
         <div>
-          <Categories />
+          <table className="table table-reflow">
+              <Categories />
+          </table>
         </div>  
     );
   }
